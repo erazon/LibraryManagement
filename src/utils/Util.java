@@ -1,5 +1,6 @@
 package utils;
 
+import dataaccess.User;
 import java.awt.Color;
 import java.awt.Component;
 import java.awt.Font;
@@ -7,20 +8,15 @@ import java.awt.Toolkit;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
-
 import javax.swing.JComponent;
 import javax.swing.JLabel;
 
-import dataaccess.User;
-
 public class Util {
-	public static final Color BLUE = Color.BLUE;
 	public static final Color DARK_BLUE = Color.BLUE.darker();
 	public static final Color ERROR_MESSAGE_COLOR = Color.RED.darker(); //dark red
 	public static final Color INFO_MESSAGE_COLOR = new Color(24, 98, 19); //dark green
 	public static final Color LINK_AVAILABLE = DARK_BLUE;
 	public static final Color LINK_NOT_AVAILABLE = Color.gray;
-	//rgb(18, 75, 14)
 	
 	public static Font makeSmallFont(Font f) {
         return new Font(f.getName(), f.getStyle(), (f.getSize()-2));
@@ -90,6 +86,7 @@ public class Util {
 			return false;
 		}
 	}
+
 	public static void centerFrameOnDesktop(Component f) {
 		Toolkit toolkit = Toolkit.getDefaultToolkit();
 		int height = toolkit.getScreenSize().height;
