@@ -55,7 +55,7 @@ public class AddBookPanel extends JFrame implements AuthorListener{
 		
 		setSize(Math.round(.7f*GuiControl.SCREEN_WIDTH),
 				Math.round(.7f*GuiControl.SCREEN_HEIGHT));
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 		
 	}
 	

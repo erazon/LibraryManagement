@@ -63,7 +63,7 @@ public class AllMemberPanel extends JWindow implements ParentWindow, ChangeListe
 	private void initializeWindow() {
 
 		setSize(GuiControl.SCREEN_WIDTH, GuiControl.SCREEN_HEIGHT);
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 
 	}
 

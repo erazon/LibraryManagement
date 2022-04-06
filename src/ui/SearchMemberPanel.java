@@ -51,7 +51,7 @@ public class SearchMemberPanel extends JFrame{
 		
 		setSize(Math.round(.7f*GuiControl.SCREEN_WIDTH),
 				Math.round(.7f*GuiControl.SCREEN_HEIGHT));
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 		
 	}
 	

@@ -52,10 +52,9 @@ public class CheckoutBookPanel extends JFrame{
 	
 	
 	private void initializeWindow() {
-		
 		setSize(Math.round(.7f*GuiControl.SCREEN_WIDTH),
 				Math.round(.7f*GuiControl.SCREEN_HEIGHT));
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 		
 	}
 	

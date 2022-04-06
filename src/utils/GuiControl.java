@@ -75,16 +75,6 @@ public class GuiControl {
 	public static Color TABLE_HEADER_BACKGROUND = DARK_BLUE;
 	public static Color WINDOW_BORDER = DARK_BLUE;
 	public static Color FILLER_COLOR = Color.white;
-	
-    public static void centerFrameOnDesktop(Component f) {
-        final int SHIFT_AMOUNT = 0;
-        Toolkit toolkit = Toolkit.getDefaultToolkit();
-        int height = toolkit.getScreenSize().height;
-        int width  = toolkit.getScreenSize().width;
-        int frameHeight = f.getSize().height;
-        int frameWidth  = f.getSize().width;
-        f.setLocation(((width-frameWidth)/2)-SHIFT_AMOUNT, (height-frameHeight)/3);    
-    }
     
  	public static Font makeSmallFont(Font f) {
         return new Font(f.getName(), f.getStyle(), (f.getSize()-2));

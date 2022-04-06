@@ -68,7 +68,7 @@ public class AllCheckoutPanel extends JWindow implements ParentWindow {
 	private void initializeWindow() {
 
 		setSize(GuiControl.SCREEN_WIDTH, GuiControl.SCREEN_HEIGHT);
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 
 	}
 

@@ -65,7 +65,7 @@ public class EditMemberPanel extends JFrame {
 		
 		setSize(Math.round(GuiControl.SCREEN_WIDTH),
 				Math.round(GuiControl.SCREEN_HEIGHT));
-		GuiControl.centerFrameOnDesktop(this);
+		Util.centerFrameOnDesktop(this);
 		
 	}
 	
